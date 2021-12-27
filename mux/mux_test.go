@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/blind-oracle/psql-streamer/common"
-	"github.com/blind-oracle/psql-streamer/event"
+	"github.com/livemart/psql-streamer/common"
+	"github.com/livemart/psql-streamer/event"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 )

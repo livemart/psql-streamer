@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/blind-oracle/psql-streamer/common"
-	"github.com/blind-oracle/psql-streamer/event"
-	"github.com/blind-oracle/psql-streamer/sink/kafka"
-	"github.com/blind-oracle/psql-streamer/sink/stub"
+	"github.com/livemart/psql-streamer/common"
+	"github.com/livemart/psql-streamer/event"
+	"github.com/livemart/psql-streamer/sink/kafka"
+	"github.com/livemart/psql-streamer/sink/stub"
 	"github.com/spf13/viper"
 )
 

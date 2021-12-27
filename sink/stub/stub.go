@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/blind-oracle/psql-streamer/common"
-	"github.com/blind-oracle/psql-streamer/event"
+	"github.com/livemart/psql-streamer/common"
+	"github.com/livemart/psql-streamer/event"
 	"github.com/spf13/viper"
 )
 

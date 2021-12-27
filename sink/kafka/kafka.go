@@ -9,9 +9,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/blind-oracle/psql-streamer/common"
-	"github.com/blind-oracle/psql-streamer/event"
-	"github.com/blind-oracle/psql-streamer/sink/prom"
+	"github.com/livemart/psql-streamer/common"
+	"github.com/livemart/psql-streamer/event"
+	"github.com/livemart/psql-streamer/sink/prom"
 	kafka "github.com/segmentio/kafka-go"
 	"github.com/spf13/viper"
 	"google.golang.org/grpc"

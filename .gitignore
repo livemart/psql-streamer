@@ -4,3 +4,5 @@ vendor*
 *.coverprofile
 *.rpm
 *.deb
+.idea/
+.out/

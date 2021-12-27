@@ -11,10 +11,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/blind-oracle/psql-streamer/common"
-	"github.com/blind-oracle/psql-streamer/event"
-	"github.com/blind-oracle/psql-streamer/mux"
-	"github.com/blind-oracle/psql-streamer/sink"
+	"github.com/livemart/psql-streamer/common"
+	"github.com/livemart/psql-streamer/event"
+	"github.com/livemart/psql-streamer/mux"
+	"github.com/livemart/psql-streamer/sink"
 	kafka "github.com/segmentio/kafka-go"
 	"github.com/spf13/viper"
 )

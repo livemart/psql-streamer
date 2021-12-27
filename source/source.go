@@ -3,10 +3,10 @@ package source
 import (
 	"fmt"
 
-	"github.com/blind-oracle/psql-streamer/common"
-	"github.com/blind-oracle/psql-streamer/sink"
-	kafkasrc "github.com/blind-oracle/psql-streamer/source/kafka"
-	"github.com/blind-oracle/psql-streamer/source/postgres"
+	"github.com/livemart/psql-streamer/common"
+	"github.com/livemart/psql-streamer/sink"
+	kafkasrc "github.com/livemart/psql-streamer/source/kafka"
+	"github.com/livemart/psql-streamer/source/postgres"
 	"github.com/spf13/viper"
 )
 

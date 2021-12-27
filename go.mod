@@ -1,4 +1,4 @@
-module github.com/blind-oracle/psql-streamer
+module github.com/livemart/psql-streamer
 
 go 1.14
 

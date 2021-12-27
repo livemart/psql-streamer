@@ -8,16 +8,16 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/blind-oracle/psql-streamer/mux"
+	"github.com/livemart/psql-streamer/mux"
 
 	"github.com/spf13/viper"
 
 	"github.com/blind-oracle/pgoutput"
-	"github.com/blind-oracle/psql-streamer/common"
-	"github.com/blind-oracle/psql-streamer/db"
-	"github.com/blind-oracle/psql-streamer/event"
-	"github.com/blind-oracle/psql-streamer/sink"
-	"github.com/blind-oracle/psql-streamer/source/prom"
+	"github.com/livemart/psql-streamer/common"
+	"github.com/livemart/psql-streamer/db"
+	"github.com/livemart/psql-streamer/event"
+	"github.com/livemart/psql-streamer/sink"
+	"github.com/livemart/psql-streamer/source/prom"
 	"github.com/jackc/pgx"
 	"github.com/satori/go.uuid"
 )

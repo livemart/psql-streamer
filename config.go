@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/blind-oracle/psql-streamer/db"
-	"github.com/blind-oracle/psql-streamer/sink"
-	"github.com/blind-oracle/psql-streamer/source"
+	"github.com/livemart/psql-streamer/db"
+	"github.com/livemart/psql-streamer/sink"
+	"github.com/livemart/psql-streamer/source"
 	"github.com/spf13/viper"
 )
 
